@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="place-of-worship-15"
+   width="20"
+   height="20"
+   viewBox="0 0 20 20"
+   sodipodi:docname="place-of-worship-20.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1252"
+     inkscape:window-height="480"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="15.733333"
+     inkscape:cx="-2.82839"
+     inkscape:cy="10.042373"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="place-of-worship-15"
+     showguides="false" />
+  <path
+     id="path9064"
+     d="M 10,1.1440678 7.2307692,3.9132986 V 6.6825293 H 12.76923 V 3.9132986 Z M 7.2307692,7.374837 5.1538462,9.4517601 H 14.846154 L 12.76923,7.374837 Z M 2.3846154,10.144068 C 1.6198923,10.144068 1,10.76396 1,11.528683 v 7.615385 h 2.7692308 v -7.615385 c 0,-0.764723 -0.6198923,-1.384615 -1.3846154,-1.384615 z m 2.7692308,0 v 9 h 9.6923078 v -9 z m 12.4615388,0 c -0.764723,0 -1.384615,0.619892 -1.384615,1.384615 v 7.615385 H 19 v -7.615385 c 0,-0.764723 -0.619892,-1.384615 -1.384615,-1.384615 z"
+     style="fill:#fbd7c6;fill-opacity:1;stroke-width:1.3846153"
+     inkscape:connector-curvature="0" />
+</svg>

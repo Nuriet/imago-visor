@@ -1,0 +1,628 @@
+{
+  "version": 8,
+  "name": "Blue_batim_uSIG",
+  "metadata": {},
+  "sources": {
+    "elementos_marinos": {
+      "type": "vector",
+      "url": "http://localhost:8080/data/elem_marinos.json"
+    }
+  },
+  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
+  "glyphs": "{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "batimetria_200",
+      "type": "fill",
+      "source": "elementos_marinos",
+      "source-layer": "batimetria",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "depth",
+          200
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-opacity": {
+          "stops": [
+            [
+              0,
+              0.2
+            ],
+            [
+              8,
+              1
+            ]
+          ]
+        },
+        "fill-color": "rgba(3, 41, 66, 1)"
+      }
+    },
+    {
+      "id": "batimetria_1000",
+      "type": "fill",
+      "source": "elementos_marinos",
+      "source-layer": "batimetria",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "depth",
+          1000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-opacity": {
+          "stops": [
+            [
+              0,
+              0.2
+            ],
+            [
+              2,
+              0.8
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        "fill-color": "rgba(2, 37, 61, 1)"
+      }
+    },
+    {
+      "id": "batimetria_2000",
+      "type": "fill",
+      "source": "elementos_marinos",
+      "source-layer": "batimetria",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "depth",
+          2000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-opacity": {
+          "stops": [
+            [
+              0,
+              0.2
+            ],
+            [
+              1,
+              0.3
+            ],
+            [
+              2,
+              0.5
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        "fill-color": "rgba(2, 34, 57, 1)"
+      }
+    },
+    {
+      "id": "batimetria_3000",
+      "type": "fill",
+      "source": "elementos_marinos",
+      "source-layer": "batimetria",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "depth",
+          3000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-opacity": {
+          "stops": [
+            [
+              1,
+              0.1
+            ],
+            [
+              2,
+              0.3
+            ],
+            [
+              3,
+              1
+            ]
+          ]
+        },
+        "fill-color": {
+          "stops": [
+            [
+              6,
+              "rgba(2, 34, 57, 1)"
+            ],
+            [
+              8,
+              "rgba(1, 27, 48, 1)"
+            ]
+          ]
+        },
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "batimetria_4000",
+      "type": "fill",
+      "source": "elementos_marinos",
+      "source-layer": "batimetria",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "depth",
+          4000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-opacity": {
+          "stops": [
+            [
+              0,
+              0.1
+            ],
+            [
+              1,
+              0.2
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        "fill-color": "rgba(1, 27, 48, 1)",
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "batimetria_5000",
+      "type": "fill",
+      "source": "elementos_marinos",
+      "source-layer": "batimetria",
+      "minzoom": 0,
+      "maxzoom": 24,
+      "filter": [
+        "all",
+        [
+          "==",
+          "depth",
+          5000
+        ]
+      ],
+      "layout": {
+        "visibility": "visible"
+      },
+      "paint": {
+        "fill-opacity": {
+          "stops": [
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ]
+          ]
+        },
+        "fill-color": "rgba(1, 24, 43, 1)",
+        "fill-antialias": false
+      }
+    },
+    {
+      "id": "toponimia_sea_6",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 7,
+      "maxzoom": 13,
+      "filter": [
+        "any",
+        [
+          "in",
+          "scalerank",
+          8,
+          9
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              7,
+              12
+            ],
+            [
+              9,
+              18
+            ]
+          ]
+        },
+        "text-max-width": 4,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_5",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 6.5,
+      "maxzoom": 11,
+      "filter": [
+        "any",
+        [
+          "in",
+          "scalerank",
+          7,
+          6
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              7,
+              13
+            ],
+            [
+              9,
+              20
+            ]
+          ]
+        },
+        "text-max-width": 4,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_4_id",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 8,
+      "maxzoom": 11,
+      "filter": [
+        "any",
+        [
+          "==",
+          "ORIG_FID",
+          103
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              5.5,
+              12
+            ],
+            [
+              9,
+              20
+            ]
+          ]
+        },
+        "text-max-width": 5,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_4",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 5.7,
+      "maxzoom": 11,
+      "filter": [
+        "all",
+        [
+          "!=",
+          "ORIG_FID",
+          103
+        ],
+        [
+          "in",
+          "scalerank",
+          4,
+          5
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              5.5,
+              12
+            ],
+            [
+              9,
+              20
+            ]
+          ]
+        },
+        "text-max-width": 5,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_3",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 5,
+      "maxzoom": 9.5,
+      "filter": [
+        "all",
+        [
+          "==",
+          "scalerank",
+          3
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              4,
+              12
+            ],
+            [
+              9,
+              20
+            ]
+          ]
+        },
+        "text-max-width": 5,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_2",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 4,
+      "maxzoom": 8.5,
+      "filter": [
+        "all",
+        [
+          "==",
+          "scalerank",
+          2
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              2,
+              8
+            ],
+            [
+              8,
+              22
+            ]
+          ]
+        },
+        "text-max-width": 3,
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_1",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 2.5,
+      "maxzoom": 7.5,
+      "filter": [
+        "all",
+        [
+          "==",
+          "scalerank",
+          1
+        ],
+        [
+          "!=",
+          "ORIG_FID",
+          14
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              2,
+              10
+            ],
+            [
+              4,
+              14
+            ],
+            [
+              7,
+              22
+            ]
+          ]
+        },
+        "text-max-width": {
+          "stops": [
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              4
+            ]
+          ]
+        },
+        "visibility": "visible"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    },
+    {
+      "id": "toponimia_sea_0",
+      "type": "symbol",
+      "source": "elementos_marinos",
+      "source-layer": "geografia_marina",
+      "minzoom": 2,
+      "maxzoom": 5,
+      "filter": [
+        "all",
+        [
+          "==",
+          "scalerank",
+          0
+        ]
+      ],
+      "layout": {
+        "text-field": "{name}",
+        "text-font": [
+          "Ubuntu Italic",
+          "Arial Unicode MS Regular"
+        ],
+        "text-size": {
+          "stops": [
+            [
+              3,
+              12
+            ],
+            [
+              4,
+              15
+            ]
+          ]
+        },
+        "text-max-width": 4,
+        "visibility": "visible",
+        "text-padding": 100,
+        "text-transform": "uppercase"
+      },
+      "paint": {
+        "text-color": "rgba(39, 153, 201, 0.65)",
+        "text-halo-color": "rgba(14, 23, 32, 1)",
+        "text-halo-width": 1,
+        "text-opacity": 1
+      }
+    }
+  ],
+  "id": "Blue_sea_uSIG"
+}

@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Jardín de Sordos Mudos" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.668730329025024, 40.404515678412295 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Jardines de la Cuesta de la Vega" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.718773498482473, 40.414751339032541 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Jardines del Campo del Moro" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.718039054803596, 40.417910372126777 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Jardines del Paseo de la Florida" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.727988460860817, 40.428915866050367 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "La Dehesa de Arganzuela" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.698715436481371, 40.392202044855644 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "La pradera de San Isidro" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.722832105474037, 40.401205690013299 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Nuevo Parque" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.669668868506119, 40.448232577743951 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Parque del Oeste" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.727653079351189, 40.432488632054479 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Pradera del Corregidor" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.728349818140582, 40.423868994432382 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Parque de Madrid o El Retiro" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.682935163017435, 40.413714637185521 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Jardín Botánico del Museo de Ciencias" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.690716117763927, 40.411035741491169 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Jardines del Buen Retiro" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.691747376606287, 40.41862986706299 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Campos Elíseos" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.660269017920998, 40.423541221606882 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Parque de Rusia" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.667546872354008, 40.431888531212408 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Real Casa de Campo" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.728271397914224, 40.416057439349643 ] ] } },
+{ "type": "Feature", "properties": { "mostrar_entodo_caso_Nombre": "Reservado de la Real Casa de Campo" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -3.726795664809063, 40.420810342672958 ] ] } }
+]
+}
